@@ -19,11 +19,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 •	Add HeidiSQL 12.3.0
+
 •	Add MySQL 5.5.62
+
 •	Add all simple versions of x86 PHP up to v7.3.8
+
 •	Install osTicket v1.15.8
+
 •	Enable extensions in IIS
+
 •	Refresh the osTicket site in your browser and observe the changes
+
 •	Clean up files for optimal use
 
 
