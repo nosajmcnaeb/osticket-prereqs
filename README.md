@@ -53,17 +53,13 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 <img src="https://i.imgur.com/lCG1ZVy.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
-<p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+From the Installation Files,
+<img src="https://i.imgur.com/mctOLVm.png"  height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-
-From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
-<p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+<p> 
+Download and install  the following
+    PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+    The Rewrite Module (rewrite_amd64_en-US.msi)
 
 Create the directory C:\PHP
 <p>
@@ -71,19 +67,14 @@ Create the directory C:\PHP
 </p>
 <p>
 
-From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
-<p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+From the Installation Files,
+ <img src="https://i.imgur.com/mctOLVm.png"  height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
+<p> 
+ download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 <p>
-
-From the Installation Files, download and install VC_redist.x86.exe.
-<p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+   download and install VC_redist.x86.exe.
+   download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 Typical Setup ->
 Launch Configuration Wizard (after install) ->
 Standard Configuration ->
@@ -93,6 +84,10 @@ Standard Configuration ->
 <p>
 
 Open IIS as an Admin
+<p>
+<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 Register PHP from within IIS
 <p>
