@@ -104,7 +104,10 @@ Reload IIS (Open IIS, Stop and Start the server)
 Go to sites -> Default -> osTicket
 On the right, click “Browse *:80”
 
-https://i.imgur.com/RzVjsMs.png
+<p>
+<img src="https://i.imgur.com/RzVjsMs.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 Go back to IIS, sites -> Default -> osTicket
 Double-click PHP Manager
@@ -129,7 +132,7 @@ Assign Permissions: ost-config.php
 Disable inheritance -> Remove All
 New Permissions -> Everyone -> All
 <p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CeRsXDh.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
