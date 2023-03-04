@@ -62,10 +62,7 @@ Download and install  the following
     The Rewrite Module (rewrite_amd64_en-US.msi)
 
 Create the directory C:\PHP
-<p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+
 
 From the Installation Files,
  <img src="https://i.imgur.com/mctOLVm.png"  height="70%" width="70%" alt="Disk Sanitization Steps"/>
@@ -78,40 +75,28 @@ From the Installation Files,
 Typical Setup ->
 Launch Configuration Wizard (after install) ->
 Standard Configuration ->
-<p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 
 Open IIS as an Admin
-<p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 
 Register PHP from within IIS
 <p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mctOLVm.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 Reload IIS (Open IIS, Stop and Start the server)
 
-Install osTicket v1.15.8
+
+Download and Install osTicket from the Installation Files Folder
 <p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Download osTicket from the Installation Files Folder
-<p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/J9u3k1F.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Extract and copy “upload” folder to c:\inetpub\wwwroot
 Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 
 <p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6qNZrbF.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Reload IIS (Open IIS, Stop and Start the server)
@@ -119,12 +104,13 @@ Reload IIS (Open IIS, Stop and Start the server)
 Go to sites -> Default -> osTicket
 On the right, click “Browse *:80”
 
-Note that some extensions are not enabled
+https://i.imgur.com/RzVjsMs.png
+
 Go back to IIS, sites -> Default -> osTicket
 Double-click PHP Manager
 Click “Enable or disable an extension”
 <p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VTky94S.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Enable: php_imap.dll
@@ -136,7 +122,7 @@ Rename: ost-config.php
 From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 <p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/s7XYptj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Assign Permissions: ost-config.php
@@ -151,17 +137,14 @@ Continue Setting up osTicket in the browser (click Continue)
 Name Helpdesk
 Default email (receives email from customers)
 
-<p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+
 From the Installation Files, download and install HeidiSQL.
 Open Heidi SQL
 Create a new session, root/Password1
 Connect to the session
 Create a database called “osTicket”
 <p>
-<img src="https://i.imgur.com/MwNtoJj.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/J9u3k1F.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Continue Setting up osticket in the browser
@@ -170,9 +153,19 @@ MySQL Username: root
 MySQL Password: Password1
 Click “Install Now!”
 
+<p>
+<img src="https://i.imgur.com/rtIciQJ.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+
 Congratulations, hopefully it is installed with no errors!
 Browse to your help desk login page: http://localhost/osTicket/scp/login.php
 
+<p>
+<img src="https://i.imgur.com/NFBESuD.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 End Users osTicket URL:
 http://localhost/osTicket/ 
 
@@ -188,10 +181,3 @@ End Users osTicket URL: http://localhost/osTicket/
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />n
